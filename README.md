@@ -5,6 +5,7 @@ The fith weekly project for the UNH coding bootcamp. This also doubles as eork w
 
 <h2>Install</h2>
 Open the website in a browser, and view the code and css style page. the color of the hours will change depend on what hour it is in real time.
+https://dmancini87.github.io/calendar/
 
 
 ![Alt Text](https://github.com/Dmancini87/calendar/blob/main/calendar.png)
