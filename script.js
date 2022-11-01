@@ -1,15 +1,15 @@
 const now = moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
 $("#currentDay").text(now);
 let currentTime = moment().format("hh a")
-let nine = moment().hour("9").format("hh a");
-let ten = moment().hour("10").format("hh a");
-let elev = moment().hour("11").format("hh a");
-let telw = moment().hour("12").format("hh a");
-let one = moment().hour("13").format("hh a");
-let two = moment().hour("14").format("hh a");
-let three = moment().hour("15").format("hh a");
-let four = moment().hour("15").format("hh a");
-let five = moment().hour("16").format("hh a");
+let nine = moment("09:00 PM").format("hh a");
+let ten = moment("10:00 PM").format("hh a");
+let elev = moment("11:00 PM").format("hh a");
+let telw = moment("12:00 PM").format("hh a");
+let one = moment("01:00 PM").format("hh a");
+let two = moment("02:00 PM").format("hh a");
+let three = moment("03:00 PM").format("hh a");
+let four = moment("04:00 PM").format("hh a");
+let five = moment("05:00 PM").format("hh a");
 
 
 console.log(currentTime)
